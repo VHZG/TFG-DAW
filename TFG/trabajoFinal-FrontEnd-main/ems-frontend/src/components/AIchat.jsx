@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import '../styles/aichat.css'
+import '../styles/Aichat.css'
 import {marked} from 'marked'
 
 function AIchat(){

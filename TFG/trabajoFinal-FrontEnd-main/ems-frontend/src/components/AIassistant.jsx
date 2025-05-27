@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import '../styles/AIchat.css'
-import {marked} from 'marked'
 
 function AIassistant(){
 

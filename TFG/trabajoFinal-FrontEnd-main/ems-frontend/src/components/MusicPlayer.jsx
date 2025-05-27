@@ -16,10 +16,6 @@ function MusicPlayer() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const audioRef = useRef(null);
 
-  const playSong = (index) => {
-    setCurrentIndex(index);
-  };
-
   const nextSong = () => {
     const nextIndex = (currentIndex + 1) % songs.length;
     setCurrentIndex(nextIndex);

@@ -8,7 +8,7 @@ import MusicPlayer from '../components/MusicPlayer'
 const ListTaskComponent = () => {
 
     
-    const [tasks, setTasks] = useState([]);
+    const [, setTasks] = useState([]);
     const [pendingTasks, setPendingTasks] = useState([]);
     const [doneTasks, setDoneTasks] = useState([]);
 
@@ -46,7 +46,7 @@ const ListTaskComponent = () => {
       if (taskToUpdate) {
         const updatedTask = { ...taskToUpdate, status: 'Done' };
 
-        updateTask(id, updatedTask).then(response => {
+        updateTask(id, updatedTask).then(() => {
           getTaskFromStatus(); 
         }).catch(error => {
           console.error('Error completing task:', error);
@@ -56,7 +56,7 @@ const ListTaskComponent = () => {
 
 
     function removeTask(id){
-        deleteTask(id).then((response) =>{
+        deleteTask(id).then(() =>{
             getTaskFromStatus();
         }).catch(error => {
             console.error(error);
