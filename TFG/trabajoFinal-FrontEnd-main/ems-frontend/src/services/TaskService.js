@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/tasks'
+const REST_API_BASE_URL = 'https://tfg-daw-production.up.railway.app/api/tasks'
 
 export const listTasks = () => axios.get(REST_API_BASE_URL)
 
