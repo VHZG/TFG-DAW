@@ -5,11 +5,6 @@ function MusicPlayer() {
     'mango-breeze.mp3',
     'Tobu - Bliss.mp3',
     'Vexento & Dexento - Anesthesia.mp3',
-    'Vexento - Floating With You.mp3',
-    'Vexento - Glow.mp3',
-    'Vexento - Lonely Dance.mp3',
-    'Vexento - Return Of The Heroes.mp3',
-    'Vexento - Snowflakes.mp3',
     'Vexento - Wild.mp3'
   ];
 
